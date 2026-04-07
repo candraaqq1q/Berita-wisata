@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mandalika Experience - Discover Lombok</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav id="navbar">
+        <div class="logo">MANDALIKA</div>
+        <ul class="nav-links">
+            <li><a href="#hero">Beranda</a></li>
+            <li><a href="#destinations">Destinasi</a></li>
+            <li><a href="#events">Event</a></li>
+            <li><a href="#contact">Kontak</a></li>
+        </ul>
+        <div class="menu-toggle" id="mobile-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <section id="hero">
+        <div class="video-container">
+            <video autoplay muted loop playsinline class="hero-video">
+                <source src="assets/video/bg.mp4" type="video/mp4">
+            </video>
+            <div class="overlay"></div>
+        </div>
+
+        <div class="hero-content">
+            <h1 class="fade-in">Discover The Heart of Lombok</h1>
+            <p class="fade-in">Sirkuit Internasional, Pantai Eksotis, dan Budaya yang Megah.</p>
+            
+            <div class="search-container fade-in">
+                <div class="search-box">
+                    <div class="input-group">
+                        <i class="fas fa-search"></i>
+                        <input type="text" id="dest-input" placeholder="Pantai, Kuliner, Budaya..." autocomplete="off">
+                        <div id="suggestions" class="suggestions"></div>
+                    </div>
+<div class="input-group">
+    <i class="fas fa-map-marker-alt"></i>
+    <input type="text" placeholder="Lokasi tujuan...">
+</div>
+                    <button class="btn-search">Cari</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="destinations" class="section-padding">
+        <h2 class="section-title">Destinasi Unggulan</h2>
+        <div class="grid-container">
+            <div class="card reveal">
+                <img src="https://images.unsplash.com/photo-1519451241324-20b4ea2c4220?auto=format&fit=crop&w=500" alt="Sirkuit">
+                <div class="card-content">
+                    <h3>Pertamina Mandalika Circuit</h3>
+                    <p>Sirkuit jalan raya kelas dunia dengan pemandangan perbukitan hijau.</p>
+                    <button class="btn-detail">Lihat Detail</button>
+                </div>
+            </div>
+            <div class="card reveal">
+                <img src="https://images.unsplash.com/photo-1588668214407-6ea9a6d8c272?auto=format&fit=crop&w=500" alt="Bukit Merese">
+                <div class="card-content">
+                    <h3>Bukit Merese</h3>
+                    <p>Spot terbaik untuk menikmati sunset yang memukau di tepi laut.</p>
+                    <button class="btn-detail">Lihat Detail</button>
+                </div>
+            </div>
+                <div class="card-content">
+                    <h3>Pantai Kuta Lombok</h3>
+                    <p>Pasir putih unik berbentuk butiran merica dan air jernih.</p>
+                    <button class="btn-detail">Lihat Detail</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="events" class="section-padding bg-light">
+        <h2 class="section-title">Mendatang di Mandalika</h2>
+        <div class="event-list">
+            <div class="event-item reveal">
+                <div class="event-date">OKT <span>15</span></div>
+                <div class="event-info">
+                    <h3>MotoGP Indonesian Grand Prix</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Pertamina Mandalika International Circuit</p>
+                </div>
+                <button class="btn-outline">Tiket</button>
+            </div>
+            <div class="event-item reveal">
+                <div class="event-date">FEB <span>20</span></div>
+                <div class="event-info">
+                    <h3>Festival Bau Nyale</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Pantai Seger, Lombok Tengah</p>
+                </div>
+                <button class="btn-outline">Info</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="social" class="section-padding">
+        <h2 class="section-title">#MandalikaExperience</h2>
+        <div class="insta-grid">
+            <div class="insta-item reveal"><img src="assets/image/g1.png"><div class="insta-overlay">@visitlombok</div></div>
+              <div class="insta-item reveal"><img src="assets/image/g2.png"><div class="insta-overlay">@mandalika_circuit</div></div>
+                <div class="insta-item reveal"><img src="assets/image/g3.png"><div class="insta-overlay">@mandalika_circuit</div></div>
+            </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Mandalika Tourism. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
